@@ -1,0 +1,65 @@
+.red {
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 0px;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+
+    .subtitle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+    }
+}
+
+.red.instagram {
+    background-color: #405DE6;
+}
+
+.red.twitter {
+    background-color: #1DA1F2;
+}
+
+.red.spotify {
+    background-color: #1ED760;
+}
+
+.red.facebook {
+    background-color: #1877F2;
+}
+
+.red.youtube {
+    background-color: #FF0000;
+}
+
+@media (max-width: 768px) {
+    .red {
+        width: 200px;
+        height: 200px;
+    }
+}

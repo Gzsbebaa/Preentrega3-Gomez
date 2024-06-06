@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd - Galería</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="galeria">
+    <header>
+        <img src="img/XO.png" alt="Logo de The Weeknd">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="redes.html">Redes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/galeria1.jpg" alt="Foto 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria2.jpg" alt="Foto 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria7.jpg" alt="Foto 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria4.jpg" alt="Foto 4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria5.jpg" alt="Foto 5">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria6.jpg" alt="Foto 6">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria77.jpg" alt="Foto 7">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria88.jpg" alt="Foto 8">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria9.jpg" alt="Foto 9">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/galeria10.jpg" alt="Foto 10">
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sebastian Gomez</p>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd - Discografía</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+        header {
+            background-color: #31363f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        header nav ul li {
+            margin-right: 20px;
+        }
+        header nav ul li:last-child {
+            margin-right: 0;
+        }
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        header nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #ffffff;
+            transform: scaleX(0.5);
+            transition: transform 0.3s ease;
+        }
+        header nav ul li a:hover {
+            color: #ffffff;
+        }
+        header nav ul li a:hover::after {
+            transform: scaleX(1);
+        }
+        .album {
+            margin-bottom: 50px;
+        }
+        .album-cover img {
+            border-radius: 10px;
+            overflow: hidden;
+            width: 100%;
+            height: auto;
+        }
+        .album-info h2 {
+            color: #ffffff;
+        }
+        .album-info p {
+            color: #cccccc;
+        }
+        footer {
+            background-color: #31363F;
+            color: #EEEEEE;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="discografia">
+    <header>
+        <div class="container">
+            <img src="img/XO.png" alt="Logo de The Weeknd">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="discografia.html">Discografía</a></li>
+                    <li><a href="redes.html">Redes</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Álbum 1 -->
+            <section class="album row">
+                <div class="col-md-6">
+                    <div class="album-cover">
+                        <img src="img/1.jpg" alt="Album 1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="album-info">
+                        <h2>House of Balloons</h2>
+                        <p>"House of Balloons" es el impactante álbum debut de The Weeknd, lanzado en 2011. Con su atmósfera seductora y letras introspectivas, estableció al artista como una fuerza innovadora en el panorama del R&B contemporáneo.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 2 -->
+            <section class="album row">
+                <div class="col-md-6 order-md-2">
+                    <div class="album-cover">
+                        <img src="img/2.jpg" alt="Album 2">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="album-info">
+                        <h2>Thursday</h2>
+                        <p>"Thursday", el segundo mixtape de The Weeknd, lanzado en 2011, mantiene la atmósfera seductora y sombría de su predecesor "House of Balloons", explorando narrativas íntimas y envolventes sobre la vida nocturna urbana.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 3 -->
+            <section class="album row">
+                <div class="col-md-6">
+                    <div class="album-cover">
+                        <img src="img/3.jpg" alt="Album 3">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="album-info">
+                        <h2>Echoes of Silence</h2>
+                        <p>
+                            "Echoes of Silence", el tercer mixtape de The Weeknd, lanzado en 2011, sigue la estela sensual y oscura establecida por sus predecesores, explorando temas emocionales y nocturnos con una atmósfera envolvente.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 4 -->
+            <section class="album row">
+                <div class="col-md-6 order-md-2">
+                    <div class="album-cover">
+                        <img src="img/4.jpg" alt="Album 4">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="album-info">
+                        <h2>Trilogy</h2>
+                        <p>"Trilogy" es la compilación de los tres mixtapes iniciales de The Weeknd, lanzada en 2012. Este álbum reúne "House of Balloons", "Thursday" y "Echoes of Silence", ofreciendo una experiencia auditiva envolvente que explora la vida nocturna urbana con una sensualidad oscura y letras introspectivas.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 5 -->
+            <section class="album row">
+                <div class="col-md-6">
+                    <div class="album-cover">
+                        <img src="img/5.jpg" alt="Album 5">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="album-info">
+                        <h2>Kiss Land</h2>
+                        <p>"Kiss Land", el primer álbum de estudio de The Weeknd, lanzado en 2013, amplía su sonido distintivo explorando temas de fama, éxito y aislamiento, manteniendo la sensualidad y oscuridad que lo caracterizan.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 6 -->
+            <section class="album row">
+                <div class="col-md-6 order-md-2">
+                    <div class="album-cover">
+                        <img src="img/6.jpg" alt="Album 6">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="album-info">
+                        <h2>Beauty Behind the Madness</h2>
+                        <p>"Beauty Behind the Madness", lanzado en 2015, es el segundo álbum de estudio de The Weeknd, catapultándolo hacia el estrellato con éxitos como "Can't Feel My Face" y "The Hills", donde explora la fama, el amor y el hedonismo con su característico sonido de R&B y pop.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 7 -->
+            <section class="album row">
+                <div class="col-md-6">
+                    <div class="album-cover">
+                        <img src="img/7.jpg" alt="Album 7">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="album-info">
+                        <h2>Starboy</h2>
+                        <p>"Starboy", lanzado en 2016, es el tercer álbum de estudio de The Weeknd, consolidando su estatus como una superestrella con el éxito del sencillo principal del mismo nombre y colaboraciones con Daft Punk. Explora la fama, el amor y la decadencia en un viaje sonoro que fusiona R&B, pop y electrónica de manera magistral.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 8 -->
+            <section class="album row">
+                <div class="col-md-6 order-md-2">
+                    <div class="album-cover">
+                        <img src="img/8.jpg" alt="Album 8">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="album-info">
+                        <h2>My Dear Melancholy</h2>
+                        <p>"My Dear Melancholy," es un EP lanzado por The Weeknd en 2018, marcando su retorno a un sonido más oscuro y emotivo. A través de este proyecto, explora temas de dolor, amor y desamor con una intensidad emocional única, llevando a los oyentes en un viaje de melancolía y reflexión a lo largo de sus canciones.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 9 -->
+            <section class="album row">
+                <div class="col-md-6">
+                    <div class="album-cover">
+                        <img src="img/9.png" alt="Album 9">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="album-info">
+                        <h2>After Hours</h2>
+                        <p>"After Hours", lanzado en 2020, es el cuarto álbum de estudio de The Weeknd. Presenta un viaje sonoro a través de la vida nocturna y las complejidades emocionales, con éxitos como "Blinding Lights" y "Save Your Tears". El álbum captura la esencia del pop contemporáneo mientras The Weeknd explora temas de amor, pérdida y redención.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Álbum 10 -->
+            <section class="album row">
+                <div class="col-md-6 order-md-2">
+                    <div class="album-cover">
+                        <img src="img/10.jfif" alt="Album 10">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <div class="album-info">
+                        <h2>Dawn FM</h2>
+                        <p>"Dawn FM", lanzado en 2022, es el quinto álbum de estudio de The Weeknd. Presenta una narrativa envolvente que sigue al personaje de The Weeknd en su viaje a través de una estación de radio surrealista. El álbum combina elementos de R&B, synth-pop y rock alternativo, explorando temas de nostalgia, redención y autodescubrimiento a lo largo de sus pistas, mostrando la evolución artística continua del artista.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sebastian Gomez</p>
+            <p>proyecto coderhouse</p>
+        </div>
+    </footer>
+</body>
+</html>

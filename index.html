@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff; 
+        }
+        header {
+            background-color: #31363f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        header nav ul li {
+            margin-right: 20px;
+        }
+        header nav ul li:last-child {
+            margin-right: 0;
+        }
+        header nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        header nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #ffffff;
+            transform: scaleX(0.5);
+            transition: transform 0.3s ease;
+        }
+        header nav ul li a:hover {
+            color: #ffffff;
+        }
+        header nav ul li a:hover::after {
+            transform: scaleX(1);
+        }
+        .banner {
+            position: relative;
+            height: 400px;
+            background-image: url('img/tw.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .banner h1 {
+            font-size: 3em;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .bio {
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .rounded-img {
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #31363F;
+            color: #EEEEEE;
+            text-align: center;
+            padding: 20px;
+        }
+       
+        .video-container {
+            text-align: center;
+            margin-bottom: 50px;
+            background-color: rgba(255, 255, 255, 0.1); 
+            padding: 10px;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body class="index">
+    <header>
+        <img src="img/XO.png" alt="Logo de The Weeknd">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="redes.html">Redes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h1>The Weeknd</h1>
+            </div>
+        </section>
+        <section class="bio">
+            <div class="image-container">
+                <div class="bio-info">
+                    <img src="img/twbebe.jpg" alt="Imagen 1" class="rounded-img">
+                </div>
+                <div class="bio-info">
+                    <img src="img/2015.jpg" alt="Imagen 2" class="rounded-img">
+                </div>
+                <div class="bio-info">
+                    <img src="img/2024.jpg" alt="Imagen 3" class="rounded-img">
+                </div>
+            </div>
+            <p class="subtitle">Último lanzamiento</p>
+            <div class="video-container" contenteditable="true">
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=hWlYEaxubRY&t=868s&ab_channel=TheWeekndVEVO" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p>
+                Abel Makkonen Tesfaye, conocido artísticamente como The Weeknd, es un cantante, compositor y productor musical canadiense. Nacido el 16 de febrero de 1990 en Toronto, Canadá, Tesfaye se dio a conocer en la escena musical a principios de la década de 2010 con una serie de mixtapes lanzados en internet.
+                <br><br>
+                La música de The Weeknd se caracteriza por su estilo único que fusiona R&B, pop y música electrónica. A lo largo de su carrera, ha lanzado varios álbumes exitosos y ha ganado numerosos premios y reconocimientos.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sebastian Gomez</p>
+        <p>proyecto coderhouse</p>
+    </footer>
+</body>
+</html>
